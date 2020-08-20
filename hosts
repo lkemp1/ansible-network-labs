@@ -12,7 +12,7 @@ R113 ansible_host=10.1.113.10
 
 [cisco:vars]
 ansible_network_os=ios
-
+ansible_connection=network_cli
 [juniper]
 
 [juniper:vars]
